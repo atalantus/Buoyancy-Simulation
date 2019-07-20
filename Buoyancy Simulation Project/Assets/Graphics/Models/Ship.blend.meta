@@ -1,38 +1,106 @@
 fileFormatVersion: 2
-guid: 35bbbe956328ee047b1acceaa2044a62
+guid: 9e131ad8692792445bfc1841c0fed9a4
 ModelImporter:
-  serializedVersion: 25
-  internalIDToNameTable:
-  - first:
-      74: 1989289236423521904
-    second: Default Take
-  - first:
-      74: -8869392646351807879
-    second: cannon_default
-  - first:
-      74: 2734205715534578592
-    second: cannon_front
-  - first:
-      74: -9023609722868523364
-    second: cannon_left
-  - first:
-      74: -2547771472688666989
-    second: cannon_right
-  - first:
-      74: 1602963664445601182
-    second: flag
-  - first:
-      74: -2977986427134676042
-    second: sail_0
-  - first:
-      74: 1843915971100667425
-    second: sail_1
-  - first:
-      74: -2156580788442877324
-    second: sail_2
-  - first:
-      74: -4097927869089914666
-    second: sail_3
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: anchor
+    100004: Boot_Mesh_17-01-19
+    100006: Boot_Rig_17-01-19
+    100008: cannon_1_l
+    100010: cannon_1_r
+    100012: cannon_2_l
+    100014: cannon_2_r
+    100016: cannon_3_l
+    100018: cannon_3_r
+    100020: cannon_front
+    100022: cannon_l
+    100024: cannon_r
+    100026: cannonplank_l_1
+    100028: cannonplank_l_2
+    100030: cannonplank_l_3
+    100032: cannonplank_r_1
+    100034: cannonplank_r_2
+    100036: cannonplank_r_3
+    100038: Flag1
+    100040: Flag2
+    100042: Flag3
+    100044: Flag_Rotation
+    100046: main
+    100048: plank
+    100050: sail-control
+    100052: sail1
+    100054: sail2
+    100056: sail3
+    100058: sail4
+    100060: sail5
+    100062: torsus
+    100064: leader1_l
+    100066: leader1_r
+    100068: leader2_l
+    100070: leader2_r
+    100072: leader3_l
+    100074: leader3_r
+    100076: pole1
+    100078: pole2
+    100080: pole3
+    400000: //RootNode
+    400002: anchor
+    400004: Boot_Mesh_17-01-19
+    400006: Boot_Rig_17-01-19
+    400008: cannon_1_l
+    400010: cannon_1_r
+    400012: cannon_2_l
+    400014: cannon_2_r
+    400016: cannon_3_l
+    400018: cannon_3_r
+    400020: cannon_front
+    400022: cannon_l
+    400024: cannon_r
+    400026: cannonplank_l_1
+    400028: cannonplank_l_2
+    400030: cannonplank_l_3
+    400032: cannonplank_r_1
+    400034: cannonplank_r_2
+    400036: cannonplank_r_3
+    400038: Flag1
+    400040: Flag2
+    400042: Flag3
+    400044: Flag_Rotation
+    400046: main
+    400048: plank
+    400050: sail-control
+    400052: sail1
+    400054: sail2
+    400056: sail3
+    400058: sail4
+    400060: sail5
+    400062: torsus
+    400064: leader1_l
+    400066: leader1_r
+    400068: leader2_l
+    400070: leader2_r
+    400072: leader3_l
+    400074: leader3_r
+    400076: pole1
+    400078: pole2
+    400080: pole3
+    2100000: Basic
+    2100002: Team
+    4300000: Boot_Mesh_17-01-19
+    7400000: cannon_right_shoot
+    7400002: cannon_left_test
+    7400004: flag_flutter
+    7400006: sail_flutter_0
+    7400008: sail_flutter_1
+    7400010: sail_flutter_2
+    7400012: sail_flutter_3
+    7400014: cannon_left_shoot
+    7400016: cannon_left_2
+    7400018: cannon_front_shoot
+    9500000: //RootNode
+    13700000: Boot_Mesh_17-01-19
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -62,155 +130,9 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Default Take
-      takeName: Default Take
-      internalID: 1989289236423521904
-      firstFrame: -1
-      lastFrame: 59
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: cannon_default
-      takeName: cannon_default
-      internalID: -8869392646351807879
-      firstFrame: -1
-      lastFrame: 0
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: cannon_front
-      takeName: cannon_front
-      internalID: 2734205715534578592
-      firstFrame: -1
-      lastFrame: 51
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: cannon_left
-      takeName: cannon_left
-      internalID: -9023609722868523364
-      firstFrame: -1
-      lastFrame: 51
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: cannon_right
-      takeName: cannon_right
-      internalID: -2547771472688666989
-      firstFrame: -1
-      lastFrame: 51
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: flag
+      name: flag_flutter
       takeName: flag
-      internalID: 1602963664445601182
-      firstFrame: -1
+      firstFrame: 0
       lastFrame: 71
       wrapMode: 0
       orientationOffsetY: 0
@@ -218,7 +140,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -231,15 +153,96 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask: []
-      maskType: 3
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Boot_Mesh_17-01-19
+        weight: 0
+      - path: Boot_Rig_17-01-19
+        weight: 0
+      - path: Boot_Rig_17-01-19/main
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/anchor
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_1_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_1_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_2_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_2_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_3_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_3_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_front
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader1_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader1_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader2_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader2_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader3_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader3_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/plank
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole1/sail1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole1/sail2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1/Flag2
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1/Flag2/Flag3
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/sail3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/sail4
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole3/sail5
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/sail-control
+        weight: 0
+      maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: sail_0
+      name: sail_flutter_0
       takeName: sail_0
-      internalID: -2977986427134676042
-      firstFrame: -1
+      firstFrame: 0
       lastFrame: 119
       wrapMode: 0
       orientationOffsetY: 0
@@ -247,7 +250,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -260,15 +263,96 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask: []
-      maskType: 3
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Boot_Mesh_17-01-19
+        weight: 0
+      - path: Boot_Rig_17-01-19
+        weight: 0
+      - path: Boot_Rig_17-01-19/main
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/anchor
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_1_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_1_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_2_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_2_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_3_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_3_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_front
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader1_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader1_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader2_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader2_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader3_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader3_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/plank
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole1/sail1
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole1/sail2
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1/Flag2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1/Flag2/Flag3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/sail3
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/sail4
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole3/sail5
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/sail-control
+        weight: 1
+      maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: sail_1
+      name: sail_flutter_1
       takeName: sail_1
-      internalID: 1843915971100667425
-      firstFrame: -1
+      firstFrame: 0
       lastFrame: 119
       wrapMode: 0
       orientationOffsetY: 0
@@ -276,7 +360,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -289,15 +373,96 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask: []
-      maskType: 3
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Boot_Mesh_17-01-19
+        weight: 0
+      - path: Boot_Rig_17-01-19
+        weight: 0
+      - path: Boot_Rig_17-01-19/main
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/anchor
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_1_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_1_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_2_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_2_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_3_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_3_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_front
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader1_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader1_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader2_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader2_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader3_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader3_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/plank
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole1/sail1
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole1/sail2
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1/Flag2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1/Flag2/Flag3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/sail3
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/sail4
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole3/sail5
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/sail-control
+        weight: 1
+      maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: sail_2
+      name: sail_flutter_2
       takeName: sail_2
-      internalID: -2156580788442877324
-      firstFrame: -1
+      firstFrame: 0
       lastFrame: 74
       wrapMode: 0
       orientationOffsetY: 0
@@ -305,7 +470,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -318,16 +483,207 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask: []
-      maskType: 3
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Boot_Mesh_17-01-19
+        weight: 0
+      - path: Boot_Rig_17-01-19
+        weight: 0
+      - path: Boot_Rig_17-01-19/main
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/anchor
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_1_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_1_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_2_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_2_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_3_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_3_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_front
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader1_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader1_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader2_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader2_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader3_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader3_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/plank
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole1/sail1
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole1/sail2
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1/Flag2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1/Flag2/Flag3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/sail3
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/sail4
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole3/sail5
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/sail-control
+        weight: 1
+      maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: sail_3
+      name: sail_flutter_3
       takeName: sail_3
-      internalID: -4097927869089914666
-      firstFrame: -1
+      firstFrame: 0
       lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Boot_Mesh_17-01-19
+        weight: 0
+      - path: Boot_Rig_17-01-19
+        weight: 0
+      - path: Boot_Rig_17-01-19/main
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/anchor
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_1_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_1_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_2_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_2_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_3_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_3_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_front
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader1_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader1_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader2_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader2_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader3_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader3_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/plank
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole1/sail1
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole1/sail2
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1/Flag2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1/Flag2/Flag3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/sail3
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/sail4
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole3/sail5
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/sail-control
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: cannon_left_shoot
+      takeName: cannon_left
+      firstFrame: 0
+      lastFrame: 46
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -347,17 +703,318 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask: []
-      maskType: 3
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Boot_Mesh_17-01-19
+        weight: 0
+      - path: Boot_Rig_17-01-19
+        weight: 0
+      - path: Boot_Rig_17-01-19/main
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/anchor
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_1_l
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_1_r
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_2_l
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_2_r
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_3_l
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_3_r
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_front
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_l
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_r
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_1
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_2
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_3
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_1
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_2
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_3
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/leader1_l
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/leader1_r
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/leader2_l
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/leader2_r
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/leader3_l
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/leader3_r
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/plank
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole1
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole1/sail1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole1/sail2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1/Flag2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1/Flag2/Flag3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/sail3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/sail4
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole3
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole3/sail5
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/sail-control
+        weight: 0
+      maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
-    isReadable: 0
+    - serializedVersion: 16
+      name: cannon_right_shoot
+      takeName: cannon_right
+      firstFrame: 0
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Boot_Mesh_17-01-19
+        weight: 0
+      - path: Boot_Rig_17-01-19
+        weight: 0
+      - path: Boot_Rig_17-01-19/main
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/anchor
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_1_l
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_1_r
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_2_l
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_2_r
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_3_l
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_3_r
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_front
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_l
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_r
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_1
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_2
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_3
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_1
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_2
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_3
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/leader1_l
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/leader1_r
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/leader2_l
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/leader2_r
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/leader3_l
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/leader3_r
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/plank
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole1
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole1/sail1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole1/sail2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1/Flag2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1/Flag2/Flag3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/sail3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/sail4
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole3
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole3/sail5
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/sail-control
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: cannon_front_shoot
+      takeName: cannon_front
+      firstFrame: 0
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Boot_Mesh_17-01-19
+        weight: 0
+      - path: Boot_Rig_17-01-19
+        weight: 0
+      - path: Boot_Rig_17-01-19/main
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/anchor
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_1_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_1_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_2_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_2_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_3_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_3_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_front
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_l
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannon_r
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_l_3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/cannonplank_r_3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/leader1_l
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/leader1_r
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/leader2_l
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/leader2_r
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/leader3_l
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/leader3_r
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/plank
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole1
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole1/sail1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole1/sail2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1/Flag2
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/Flag_Rotation/Flag1/Flag2/Flag3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/sail3
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole2/sail4
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/pole3
+        weight: 1
+      - path: Boot_Rig_17-01-19/main/torsus/pole3/sail5
+        weight: 0
+      - path: Boot_Rig_17-01-19/main/torsus/sail-control
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.2
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -365,32 +1022,27 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.2
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -400,7 +1052,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

@@ -8,9 +8,6 @@
 		_FoamNoiseStep("Foam Noise Step", float) = 1
 		_WaterTexSpeed("Water Texture Speed (X,Y)", Vector) = (1,1,0,0)
 		_Color("Water Color", Color) = (1,1,1,1)
-		[Header(Render Texture Settings (RTCameraUpdater.cs needed))]
-		_RenderTexture("Render Texture (RT)", 2D) = "white" {}
-
 
 		[Header(Water Settings)]
 		_WaveHeight("Wave Height", float) = 0.5
@@ -95,21 +92,15 @@
 				noiseTexture.rgb = step(_FoamNoiseStep, noiseTexture.r);
 				noiseTexture.a = 0;
 
-
-				float2 texPos = float2(i.worldPos.x - _RTCameraPosition.x, i.worldPos.z - _RTCameraPosition.z) / (_RTCameraSize * 2) + 0.5;
-
 				// sampling textures
 				fixed4 col = tex2D(_MainTex, i.uv + float2(_WaterTexSpeed.x  * _Time.x, _WaterTexSpeed.y  * _Time.x));
-				fixed4 renderTextureColor = tex2D(_RenderTexture, texPos);
 
 				// reapplying the textures and just changing the alpha value. this is possible since its just black and white pictures.
-				renderTextureColor = float4(renderTextureColor.r * 1000, renderTextureColor.g * 1000, renderTextureColor.b * 1000, renderTextureColor.r * 1000);
 				col = float4(col.r,col.g,col.b,col.r);
-
 
 				// apply fog
 				UNITY_APPLY_FOG(i.fogCoord, col);
-				return (renderTextureColor) + col + _Color;
+				return col + _Color;
 			}
 			ENDCG
 		}
