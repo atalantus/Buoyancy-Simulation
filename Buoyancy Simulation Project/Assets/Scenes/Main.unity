@@ -133,30 +133,13 @@ GameObject:
   - component: {fileID: 340635210}
   - component: {fileID: 340635209}
   - component: {fileID: 340635208}
-  - component: {fileID: 340635207}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &340635207
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 340635206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54504e7e6e14f879aca872877638c4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  customCenterOfMass: 0
-  centerOfMassOffset: {x: 0, y: 0, z: 0}
-  debugView: 1
-  debugForceScalar: 0.1
+  m_IsActive: 0
 --- !u!54 &340635208
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -639,6 +622,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8155068908956614005, guid: 932dab854c71f7b46a7fa7aa77acb9da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 932dab854c71f7b46a7fa7aa77acb9da, type: 3}
 --- !u!1001 &1489275215
@@ -729,30 +717,13 @@ GameObject:
   - component: {fileID: 1965538462}
   - component: {fileID: 1965538461}
   - component: {fileID: 1965538460}
-  - component: {fileID: 1965538459}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1965538459
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1965538458}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54504e7e6e14f879aca872877638c4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  customCenterOfMass: 0
-  centerOfMassOffset: {x: 0, y: 0, z: 0}
-  debugView: 1
-  debugForceScalar: 0.1
+  m_IsActive: 0
 --- !u!54 &1965538460
 Rigidbody:
   m_ObjectHideFlags: 0

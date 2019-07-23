@@ -1,20 +1,25 @@
-using System;
+﻿using System;
 using UnityEngine;
 
 namespace atalantus.Buoyancy
 {
-    public class Buoyancy : MonoBehaviour
+    [RequireComponent(typeof(Rigidbody), typeof(Collider))]
+    public abstract class BuoyancyBase : MonoBehaviour
     {
-        private Rigidbody _rb;
-        private Collider _col;
-        
-        [Header("Settings")] 
-        [SerializeField] private bool customCenterOfMass;
-        [Tooltip("The center of mass relative to the transform`s origin")] [SerializeField] private Vector3 centerOfMassOffset;
-        [Space]
-        
-        [Header("Debug Options")]
-        [SerializeField] private bool debugView = true;
+        protected Rigidbody _rb;
+        protected Collider _col;
+        protected Vector3 _centerOfGravity;
+        protected Vector3? _centerOfBuoyancy = null;
+        protected Vector3 _buoyantForce;
+
+        [Header("Settings")] [SerializeField] private bool customCenterOfMass;
+
+        [Tooltip("The center of mass relative to the transform`s origin")] [SerializeField]
+        private Vector3 centerOfMassOffset;
+
+        [Space] [Header("Debug Options")] [SerializeField]
+        private bool debugView = true;
+
         [SerializeField] private float debugForceScalar = 0.1f;
 
         private void Awake()
@@ -27,27 +32,32 @@ namespace atalantus.Buoyancy
         {
             if (customCenterOfMass)
                 _rb.centerOfMass = centerOfMassOffset;
+
+            _centerOfGravity = _rb.worldCenterOfMass;
         }
 
-        private void FixedUpdate()
+        private void Update()
         {
             // Get data
-            var centerOfGravity = _rb.worldCenterOfMass;
-            var centerOfBuoyancy = centerOfGravity;
             var vel = _rb.velocity;
             var buoyancy = Vector3.zero;
-            
+
             // Buoyancy
-            if (IsTouchingWater())
+            if (true)
             {
-                buoyancy = new Vector3(0, 20, 0);
-                // Applies buoyant force (not affected by the mass of the object)
-                _rb.AddForceAtPosition(buoyancy, centerOfBuoyancy, ForceMode.Acceleration);
+                Debug.Log("Apply Buoyancy");
+                ApplyBuoyancy();
             }
-            
+            else
+            {
+                _centerOfBuoyancy = null;
+            }
+
             // Show debug output
-            if (debugView) ShowDebug(centerOfGravity, vel, buoyancy);
+            if (debugView) ShowDebug(_centerOfGravity, vel, buoyancy);
         }
+
+        protected abstract void ApplyBuoyancy();
 
         private bool IsTouchingWater()
         {
@@ -61,13 +71,13 @@ namespace atalantus.Buoyancy
             DrawArrow.ForDebugLine(centerOfGravity,
                 new Vector3(centerOfGravity.x, centerOfGravity.y + Physics.gravity.y * debugForceScalar,
                     centerOfGravity.z), Color.red);
-            
+
             DrawArrow.ForDebugLine(centerOfGravity, centerOfGravity + vel * debugForceScalar, Color.blue);
-            
+
             DrawArrow.ForDebugLine(centerOfGravity, centerOfGravity + buoyancy * debugForceScalar, Color.green);
         }
 
-        private void OnDrawGizmos()
+        protected virtual void OnDrawGizmos()
         {
             if (_rb == null || !debugView) return;
 

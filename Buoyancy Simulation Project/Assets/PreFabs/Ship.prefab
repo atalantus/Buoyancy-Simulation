@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8155068908647708747}
   - component: {fileID: 772130003081999543}
   - component: {fileID: 268170515413004829}
-  - component: {fileID: 2597105176982881623}
+  - component: {fileID: 6340333752387886343}
   m_Layer: 0
   m_Name: Ship
   m_TagString: Untagged
@@ -63,8 +63,8 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 2bf948a4814835f49a28929ff15ec44c, type: 3}
---- !u!114 &2597105176982881623
+  m_Mesh: {fileID: 4969386649688215616, guid: 5dce1a542c7e5764ea5bb44707636eb1, type: 3}
+--- !u!114 &6340333752387886343
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -73,13 +73,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 8155068908647708746}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54504e7e6e14f879aca872877638c4f, type: 3}
+  m_Script: {fileID: 11500000, guid: e6788e5a189428e4e9036b6547a6abfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   customCenterOfMass: 1
   centerOfMassOffset: {x: 0, y: 0.15, z: 0}
   debugView: 1
   debugForceScalar: 0.1
+  collisionMesh: {fileID: 268170515413004829}
 --- !u!1001 &8155068908956646357
 PrefabInstance:
   m_ObjectHideFlags: 0
